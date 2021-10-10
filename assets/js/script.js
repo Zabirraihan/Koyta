@@ -60,6 +60,7 @@ $(function(){
                       slidesToShow: 1
                     }
                   }
+
             ]
         })
         $('.logo_wrraper').slick({
@@ -83,8 +84,17 @@ $(function(){
                       centerPadding: '40px',
                       slidesToShow: 2
                     }
+                  },
+                  {
+                    breakpoint: 576,
+                    settings: {
+                      arrows: false,
+                      centerMode: true,
+                      centerPadding: '40px',
+                      slidesToShow: 1  
                   }
-            ]
+                }
+            ]    
         })
         // slick jquery end
 

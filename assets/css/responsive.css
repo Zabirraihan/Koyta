@@ -429,6 +429,7 @@
     }
     .section_title h5:before {
         width: 45%;
+        bottom: 35%;
     }
     .section_title h2 {
         font-size: 25px;
@@ -599,6 +600,21 @@
     }
     .section_title h5::before {
         width: 132px;
+    }
+    #aboust-us {
+        padding: 30px 0;
+    }
+    .section_title h5 {
+        padding: 40px 0 41px 0;
+    }
+    #serivce_section {
+        padding-bottom: 40px;
+    }
+    #pricing .price {
+        margin: 0 0 40px 0;
+    }
+    #recent_news {
+        padding: 0 0 50px 0;
     }
 }
 /* / / phone section end / / */
